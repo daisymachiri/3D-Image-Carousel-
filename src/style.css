@@ -53,6 +53,9 @@ left: 50%;
 -webkit-transform: translate(-50%, -50%) rotateX(90deg);
 transform: translate(-50%, -50%) rotateX(90deg);
 color: #fff;
+font-size: 24px;
+text-shadow: 2px 2px 4px rgba(253, 250, 250, 0.5);
+text-align: center;
 
 }
 
