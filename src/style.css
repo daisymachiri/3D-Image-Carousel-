@@ -91,3 +91,21 @@ background: -webkit-radial-gradient(center center, farthest-side, #fff3, transpa
         to{-webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);}
 }
+
+@media screen and (max-width: 768px) {
+    #drag-container, #spin-container {
+        transform: rotateX(-15deg);
+    }
+    #drag-container img {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #drag-container, #spin-container {
+        transform: rotateX(-20deg);
+    }
+    #drag-container img {
+        font-size: 30px;
+    }
+}
